@@ -1,0 +1,219 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+					HERRAMIENTAS DE DESARROLLO
+
+
+JAVA
+
+- Java 17
+	sudo apt install openjdk-17-jdk openjdk-17-jre
+	
+- Gradle
+	sudo apt install gradle
+
+- Maven
+	sudo apt install maven
+
+
+
+
+
+GIT 
+	sudo apt install git
+
+
+
+
+NODEJS
+	sudo apt install nodejs
+
+NPM 
+	sudo apt install npm
+
+
+
+
+DOCKER
+
+- Instalación
+	
+	sudo apt update
+	sudo apt install apt-transport-https ca-certificates curl software-properties-common
+	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+	sudo apt update
+	apt-cache policy docker-ce
+	sudo apt install docker-ce
+
+
+
+MYSQL WORKBENCH 
+
+- Instalacion
+
+	sudo snap install mysql-workbench-community
+	
+DBEAVER
+	sudo snap install dbeaver-ce
+
+
+
+
+INTELLIJ IDEA 
+
+- Instalación
+
+https://www.ingenieriazeros.com/2021/09/instalar-intellij-en-ubuntu-2004.html
+
+- Ejecutar Intellij
+/opt/intellij/bin/idea.sh
+
+
+
+
+
+
+JENKINS(no funcionó esta vez) (18/04/23)
+
+- Instalacion en puerto 8080 (Fuente: https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-20-04-es)
+	
+	wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
+	sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+	sudo apt update
+	sudo apt install jenkins
+
+Clave (en este caso): 059ebfe7b8174902afc41288601db629	
+
+
+
+PROMETHEUS
+	
+	https://techexpert.tips/prometheus/prometheus-monitoring-installation-ubuntu-linux/
+	
+- Ejecutar prometheus
+sudo prometheus --config.file /etc/prometheus/prometheus.yml --storage.tsdb.path /var/lib/prometheus/ --web.console.templates=/etc/prometheus/consoles --web.console.libraries=/etc/prometheus/console_libraries
+
+
+-Ejecutar Grafana(usermane: admin)
+service grafana-server start
+
+
+
+
+
+POSTMAN 
+	sudo snap install postman
+	
+GIT KRAKEN
+	wget https://release.axocdn.com/linux/gitkraken-amd64.deb
+	*dirigirse a la carpeta donde se encuentra el deb*
+	sudo dpkg -i gitkraken-amd64.deb
+	
+	*Ojo que el nombre del archivo puede cambiar en esta ultima instrucción*
+
+
+
+
+
+RESUMEN TODAS LAS INSTRUCCIONES
+
+sudo apt install openjdk-17-jdk openjdk-17-jre
+sudo apt install gradle
+sudo apt install maven
+
+
+sudo apt install nodejs
+sudo apt install npm
+
+sudo apt update
+	sudo apt install apt-transport-https ca-certificates curl software-properties-common
+	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+	sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+	sudo apt update
+	apt-cache policy docker-ce
+	sudo apt install docker-ce
+
+sudo snap install mysql-workbench-community
+sudo snap install dbeaver-ce
+sudo snap install postman
+sudo apt install git
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+					HERRAMIENTAS DE ESCRITORIO
+					
+					
+
+ GOOGLE CHROME 
+	
+sudo apt install gdebi-core wget
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo gdebi google-chrome-stable_current_amd64.deb
+
+SPOTIFY
+	sudo snap install spotify
+	
+
+VLC MEDIA PLAYER
+	sudo apt install vlc -y
+	
+DISCORD
+	sudo snap install discord
+	
+	
+RESUMEN TODAS LAS INSTRUCCIONES
+
+sudo apt install gdebi-core wget
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo gdebi google-chrome-stable_current_amd64.deb
+
+sudo snap install spotify
+sudo apt install vlc -y
+sudo snap install discord
+	
+
+
+

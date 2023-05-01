@@ -1,0 +1,9 @@
+- Elegir instalación normal, instalacion de software de terceros y descargar actualizaciones al instalar ubuntu.
+
+- Seleccionar a la hora de instalar,  "otras opciones" para elegir la partición donde instalar ubuntu.
+
+- Se selecciona la partición y se apreta el boton de "+". Aquí se abrirá una pantalla para crear la partición.
+Esta se debe poner que es primaria y al principio de este espacio. También utilizar como "sistema  de ficheros ext4 transaccional" y en 
+punto de montaje elegir "/". Y poner ok.
+
+- IMPORTANTE: el dispositivo de arranque de booteo de ubuntu, debe ser instalado en el mismo disco donde irá ubuntu.

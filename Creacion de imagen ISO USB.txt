@@ -1,0 +1,16 @@
+- Requerimientos
+
+	- Instalar rufus (para montar la imagen ISO en el USB)
+	- tener un pendrive de almenos 8 GB 
+	- descargar la imagen de ubuntu a traves de su pagina web.
+
+- Montar imagen ISO con rufus
+	- se selecciona la imagen descargada desde la imagen de ubuntu
+	- En este caso se elige la opción de GPT aunque para ver esto se debe hacer lo siguiente:
+		- ir a cmd y escribir "diskpart" y se abrirá otra ventana de comandos.
+		- en esta linea de comandos escribir "listdisk"
+		- se mostrará un listado con las particiones. Aqui hay que fijarse en las particiones hay que fijarse en 
+		  la columna de GPT. Si en la particion que se instalará ubuntu sale un asterisco(*) en la columna de GPT
+		  entonces es GPT, de lo contrario es MBR.
+	- Ahora se escoge el sistema de archivos, esto se puede ver facil en la sección de crear particiones de discos de windows, ahi 
+	  en una de las columnas dice que tipo de sistema de archivos tiene, en mi caso es NTFS.

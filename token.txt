@@ -1,0 +1,10 @@
+
+
+
+comando pa push y la ctm
+git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
+
+git push https://<TOKEN>@github.com/gerardoluceroc/Lab-1-Sistope.git
+
+
+

@@ -1,0 +1,18 @@
+- Auto rename tag: permite que en caso de cambiar el tipo o nombre de una etiqueta en html, tambien se cambie la de cierre.
+
+- Live Server: permite correr archivos hmtl en un servidor de modo de que se aplica inmediatamente cada cambio en la página son la necesidad de recargarla.
+
+- Code Runner: Permite correr codigo fuente, acepta varios lenguajes.
+
+- Error Lens: Permite ver errores de codigo antes de que se compile incluso, junto con una pequeña descripción.
+
+- Indent-rainbow: Permite controlar la identación de un codigo para mejorar su legibilidad, en caso que la identación no esté bien, la extensión lo indicará con un color.
+
+- Path Intellisense: Ayuda a la hora de escribir una ruta de un archivo o de lo que sea, de modo de que al escribir el "./" la extensión mostrara como sugerencia los archivos o carpetas.
+
+- Code Spell Checker: Permite verificar errores de tipeo y faltas de ortografía en el codigo. Evidentemente viene en su version del idioma ingles, aunque tambien hay para español. 
+
+- Andromeda: Conjunto de temas.
+
+- Material Icon Theme: Cambia el tema de los iconos de todos los archivos de algun lenguaje.
+
