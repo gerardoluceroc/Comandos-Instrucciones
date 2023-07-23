@@ -91,10 +91,52 @@ exit;
 
 
 
+/////////////////////////////COMANDOS PARA CORRER CIVILO ROLLER /////////////////////////////////
+
+- general .JAR del backend
+
+./gradlew build -x test
+
+- crear imagen docker
+
+ docker build -t gerardoluceroc/imagen-frontend-civilo-roller .
+
+- subir imagen a DockerHub
+
+docker push gerardoluceroc/imagen-frontend-civilo-roller
+
+- correr contenedores
+
+docker-compose up
 
 
+- entrar a docker mysql civilo
+
+docker exec -it contenedor-civilo-mysql  mysql -p
+
+- entrar a base de datos dentro de mysql
+
+use civilo_roller_db;
+
+- entrar a la base de datos
 
 
+- Rellenas datos faltantes: MARGEN DE UTILIDAD, TIPO DE TUBO, IVA
+
+INSERT INTO profit_margin (profit_marginid,decimal_profit_margin,profit_margin_percentaje) 
+VALUES
+(1, 0.4, 40);
+
+INSERT INTO pipes (pipeid, pipe_name) 
+VALUES
+(5,'Tubo 38 mm'),
+(6,'Tubo 42 mm');
+
+INSERT INTO currentiva (ivaID, iva_percentage) 
+VALUES
+(2, 19);
+
+///////////////////////////////////////////////////// FIN COMANDOS PARA CORRER CIVILO ROLLER //////////////////////////////////////////////
 
 
 
@@ -117,6 +159,7 @@ exit;
 - CREAR ARCHIVO .JAR(saltandose los test)
 
 ./mvnw install -DskipTests
+./gradlew build -x test
 
 
 - CREAR IMAGEN DOCKER DEL PROYECTO (segun el ayudante al final va un punto, aunque el profe lo termina con la version, osea, pone ":latest" al final en vez del punto que dice el ayudante.
