@@ -68,6 +68,14 @@ docker container logs bc2d5548cff9
 docker exec -it contenedor-mysql  mysql -p
 
 
+- PUSHEAR FRONTEND CIVILO
+git push https://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@github.com/gerardoluceroc/civilo-g10-frontend.git
+
+- PUSHEAR BACKEND CIVILO
+git push https://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@github.com/NicolasHenriquezT/civilo-g10-backend.git
+
+
+
 
 - COMANDOS MYSQL
 
