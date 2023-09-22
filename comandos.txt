@@ -261,6 +261,51 @@ sudo ufw allow 22/tcp
 
 
 
+///////////////////////////////////////////////////// NEURONE ///////////////////////////////////////////////////////////////////
+
+
+sudo ng build --prod --output-path ../Server/public
+
+
+- EJECUTAR TRIVIA
+
+- acceder a la carpeta GAME
+- su git pull porsiacaso
+- acceder a la carpeta Client
+	cd Client/
+	npm install
+	pm2 list
+	sudo ng build --prod --output-path ../Server/public
+	
+- Acceder a la carpeta Server
+	npm install
+	pm2 list 
+	pm2 restart (para reiniciar todo)
+	pm2 start 1 (para iniciar la aplicacion con id 1, en el video por ejemplo es el que se llama NEURONE-Trivia)
+
+
+
+////////////////////////////////////////////////////// FIN NEURONE //////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

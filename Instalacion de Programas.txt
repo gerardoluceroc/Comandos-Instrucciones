@@ -31,6 +31,10 @@ NPM
 	sudo apt install npm
 
 
+NVM Para Node (Ubuntu 20.04)
+	
+	curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+	source ~/.bashrc
 
 
 DOCKER
